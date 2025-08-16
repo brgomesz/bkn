@@ -26,35 +26,19 @@ const Services = () => {
   ];
 
   return (
-    <section id="servicos" className="py-20 bg-white">
+    <section id="servicos" className="py-20 bg-[#f4f6f9] font-sans" style={{fontFamily: 'Salesforce Sans, Arial, sans-serif'}}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Nossos Serviços
-          </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Oferecemos soluções completas para transformar sua empresa através da tecnologia
-          </p>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#032d60] mb-4">Nossos Serviços</h2>
+          <p className="text-xl text-[#032d60]/80 max-w-3xl mx-auto">Oferecemos soluções completas para transformar sua empresa através da tecnologia</p>
         </div>
-
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {services.map((service, index) => (
-            <div 
-              key={index}
-              className="bg-white p-6 rounded-lg shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300 h-80 flex flex-col"
-            >
-              <div className="mb-4">
-                {service.icon}
-              </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">
-                {service.title}
-              </h3>
-              <p className="text-gray-600 flex-1">
-                {service.description}
-              </p>
-              <button className="mt-4 text-blue-600 hover:text-blue-700 font-medium transition-colors duration-300">
-                Saiba Mais →
-              </button>
+            <div key={index} className="bg-white p-6 rounded-lg shadow-lg border border-[#eaf5fe] hover:shadow-xl transition-shadow duration-300 h-80 flex flex-col">
+              <div className="mb-4">{service.icon}</div>
+              <h3 className="text-xl font-semibold text-[#032d60] mb-4">{service.title}</h3>
+              <p className="text-[#032d60]/80 flex-1">{service.description}</p>
+              <button className="mt-4 text-[#00A1E0] hover:text-[#0176d3] font-medium transition-colors duration-300">Saiba Mais →</button>
             </div>
           ))}
         </div>
