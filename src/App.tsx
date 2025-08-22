@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-sans bg-white" style={{fontFamily: 'Salesforce Sans, Arial, sans-serif'}}>
+    <div className="font-roboto bg-white" style={{fontFamily: 'Roboto, Arial, sans-serif'}}>
       <Navbar />
       <HeroSection />
       <About />
