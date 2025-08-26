@@ -17,7 +17,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-20 bg-[#f4f6f9] font-sans" style={{fontFamily: 'Salesforce Sans, Arial, sans-serif'}}>
+    <section id="testimonials" className="py-20 bg-[#f4f6f9] font-sans" style={{fontFamily: 'Salesforce Sans, Arial, sans-serif'}}>
       <div className="max-w-4xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#032d60] mb-4">O que nossos clientes dizem</h2>

@@ -1,12 +1,13 @@
 
 import React from 'react';
 import imgBg from '../assets/componente G.png';
+import iaImagem from '../assets/ia-imagem.jpg';
 
 const HeroSection = () => {
   return (
     <>
       {/* Hero principal */}
-  <section className="bg-white h-screen flex items-center justify-center font-sans relative overflow-hidden">
+  <section id="home" className="bg-white h-screen flex items-center justify-center font-sans relative overflow-hidden">
         {/* Imagem decorativa de fundo à direita */}
         <div className="absolute right-0 top-0 h-full w-1/2 pointer-events-none z-0 flex justify-end items-center">
           <img 
@@ -43,10 +44,10 @@ const HeroSection = () => {
           </div>
           {/* Imagem à direita */}
           <div className="flex-1 flex items-center justify-center mt-10 md:mt-0">
-            <div className="w-full max-w-md h-80 rounded-xl overflow-hidden shadow-lg flex items-center justify-center bg-[#eaf5fe]">
+            <div className="w-full max-w-md h-70 rounded-xl overflow-hidden shadow-lg flex items-center justify-center bg-[#eaf5fe]">
               <img
-                src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
-                alt="Business AI"
+                src={iaImagem}
+                alt="Business AI Solutions"
                 className="object-cover w-full h-full"
               />
             </div>

@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Configuração global para scroll suave */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo para quando a página rolar para uma seção específica */
+:target {
+  scroll-margin-top: 80px; /* Ajuste para compensar a altura da navbar fixa */
+}

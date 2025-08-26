@@ -26,7 +26,7 @@ const AIFeature = () => {
   ];
 
   return (
-    <section className="py-24 bg-[#f4f6f9] font-sans" style={{fontFamily: 'Salesforce Sans, Arial, sans-serif'}}>
+    <section id="aifeature" className="py-24 bg-[#f4f6f9] font-sans" style={{fontFamily: 'Salesforce Sans, Arial, sans-serif'}}>
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-[#032d60] mb-4">Tecnologias de IA Avançadas</h2>

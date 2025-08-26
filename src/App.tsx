@@ -16,8 +16,8 @@ function App() {
       <About />
       <Services />
       <AIFeature />
-      <Testimonials />
       <CTASection />
+      <Testimonials />
       <Footer />
     </div>
   );
